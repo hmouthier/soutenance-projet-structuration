@@ -1,3 +1,15 @@
-#Préparation de la soutenance
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Damien DUPORTAL's pages</title>
+  <meta charset="utf-8" />
+</head>
 
-[presentation](presentation/)
+<body>
+  <h1>Préparation de la soutenance</h1>
+  <ul>
+  	
+  	<li><a href="./presentation/">Presentations</a></li>
+  </ul>
+</body>
+</html>
