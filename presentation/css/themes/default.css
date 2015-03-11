@@ -80,7 +80,12 @@ body {
 
 .ft-page {
 	padding: 2rem;
-	background-color: #808080;
+	background-color: #7BE8BC;
+}
+.ft-page2 {
+	padding: 2rem;
+	background-color: #7BE8BC;
+	background-image:url(assets/img/datacenter.jpg);
 }
 
 .flowtime h1,
@@ -120,18 +125,21 @@ body {
 .flowtime h1 {
 	font-size: 3.5rem;
 	line-height: 3rem;
+	color:#0B6240;
 	margin: 1rem 0 2rem 0;
 }
 
 .flowtime h2 {
 	font-size: 2.5rem;
 	line-height: 2.5rem;
+	color:#0B6240;
 	margin: 2rem 0;
 }
 
 .flowtime h3 {
 	font-size: 2rem;
 	line-height: 2rem;
+	color:#0B6240;
 	margin: 2rem 0;
 }
 
