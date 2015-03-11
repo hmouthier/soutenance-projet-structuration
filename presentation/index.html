@@ -1,0 +1,437 @@
+	<!DOCTYPE HTML>
+	<!--[if IE 6]>
+	<html id="ie6" lang="en-US" class="ie ie6 lt-ie9">
+	<![endif]-->
+	<!--[if IE 7]>
+	<html id="ie7" lang="en-US" class="ie ie7 lt-ie9">
+	<![endif]-->
+	<!--[if IE 8]>
+	<html id="ie8" lang="en-US" class="ie ie8 lt-ie9">
+	<![endif]-->
+	<!--[if gte IE 9]>
+	<html lang="en-US" class="ie ie9">
+	<![endif]-->
+	<!--[if !(IE)]><!-->
+	<html lang="en-US" class="">
+	<!--<![endif]-->
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0 minimal-ui">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="author" content="marcolago">
+
+		<meta property="og:title" content="Présentation">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="http://flowtime-js.marcolago.com">
+		<meta property="og:image" content="http://flowtime-js.marcolago.com/assets/img/share-image.jpg">
+		<meta property="og:site_name" content="Présentation">
+		<meta property="fb:admins" content="1293500397">
+
+		<meta name="twitter:card" content="summary">
+		<meta name="twitter:url" content="http://flowtime-js.marcolago.com">
+		<meta name="twitter:title" content=" A HTML Presentation Framework">
+		<meta name="twitter:description" content="Flowtime.js is an open source framework for easily build HTML presentations or websites. It’s built with web standards in mind and on top of a solid full page grid layout powered by CSS3 hardware accelerated transition and comes with a complete set of Javascript API for deep customization.">
+		<meta name="twitter:image" content="http://flowtime-js.marcolago.com/assets/img/share-image.jpg">
+		<meta name="twitter:creator" content="@marcolago">
+
+		<meta name="description" content="Flowtime.js is an open source framework for easily build HTML presentations or websites. It’s built with web standards in mind and on top of a solid full page grid layout powered by CSS3 hardware accelerated transition and comes with a complete set of Javascript API for deep customization.">
+
+		<title>Présentation</title>
+		<link rel="stylesheet" href="assets/css/reset.css">
+		<link rel="stylesheet" href="css/flowtime.css">
+		<link rel="stylesheet" href="css/themes/default.css">
+		<link rel="stylesheet" href="assets/css/prism.css">
+
+
+		<link rel="apple-touch-icon-precomposed" 						href="img/touch-icon-iphone.png">
+		<link rel="apple-touch-icon-precomposed" 	sizes="72x72" 		href="img/touch-icon-ipad.png">
+		<link rel="apple-touch-icon-precomposed" 	sizes="114x114" 	href="img/touch-icon-iphone-retina.png">
+		<link rel="apple-touch-icon-precomposed" 	sizes="144x144" 	href="img/touch-icon-ipad-retina.png">
+
+		<link rel="apple-touch-startup-image" href="img/startup-640x920.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)">
+		<link rel="apple-touch-startup-image" href="img/startup-640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
+	<style>
+	    .titles {
+	      text-align: justify;
+	      padding: 0.5em;
+	      position: fixed;
+	      top: 0;
+	      left: 0;
+	      right: 0;
+	      z-index: 1000;
+	      background-color: rgba(0,0,0,0.5);
+	    }
+
+	    .titles:after {
+	      content: "";
+	      display: table;
+	      clear: both;
+	    }
+
+	    .title-prev {
+	      width: 45%;
+	      float: left;
+	      cursor: pointer;
+	    }
+
+	    .title-next {
+	      text-align: right;
+	      width: 45%;
+	      float: right;
+	      cursor: pointer;
+	    }
+
+	  </style>
+	</head>
+	<body class="">
+
+		<div class="flowtime">
+			<div class="ft-section" data-id="section-1">
+				<div id="/section-1/page-1" class="ft-page" data-id="page-1" data-title="Visualisation 3D d'une orthophoto">
+					<div class="stack-center">
+						<div class="stacked-center">
+						<p class="page-title">Visualisation 3D d'une orthophotographie</p>
+							<a href="#/section-1/page-2"><img src="assets/img/logo.png"></a>
+							
+							<p> <strong>Projet géomatique</strong> <br>
+								OpenGL / C++</p>
+						
+
+							
+						</div>
+					</div>
+				</div>
+				<div id="/section-1/page-2" class="ft-page" data-id="page-2">
+					<h1>Sommaire</h1>
+					<ul>
+						<li><a href="#/section-2/page-1">Introduction</a></li>
+						<li><a href="#/section-3/page-1">Traitement d'image</a></li>
+						<li><a href="#/section-4/page-1">Modélisation 3D</a></li>
+						<li><a href="#/section-5/page-1">Méthode de travail</a></li>
+						<li><a href="#/section-6/page-1">Conclusion</a></li>
+						<li><a href="#/section-7/page-1">Démonstration</a></li>
+					</ul>
+					
+				</div>
+				</div>
+			<div class="ft-section" data-id="section-2">
+			<div id="/section-2/page-1" class="ft-page" data-id="page-1">
+					<h1>Introduction</h1>
+					<h2>Objectif du sujet :</h2>
+						<dl>
+							<dt>Détecter des objets</dt>
+							<dd>Batiment, Route, Végétation</dd>	
+							<dt>Effectuer le traitement sur n'importe quelle image</dt>		
+							<dt>Permettre leurs visualisations en 3D</dt>		
+						</dl>
+				</div>
+				<div id="/section-2/page-2" class="ft-page" data-id="page-2">
+					<h1>Déroulement du projet</h1>
+						<dl>
+							<dt>Bibliographie des traitements d'image</dt>
+							<dt>Prise en main d'OpenGL</dt>	
+							<dt>Création d'une caméra</dt>	
+							<dt>Finalisation du traitement d'image</dt>	
+							<dt>Création des objets texturés en OpenGL</dt>	
+							<dt>Mise en place de la caméra</dt>	
+							<dt>Création d'une interface</dt>		
+						</dl>
+				</div>
+			
+			 </div>
+			<div class="ft-section" data-id="section-3">
+<div id="/section-3/page-1" class="ft-page" data-id="page-1">
+				<h1>Traitement d'image</h1>
+				<p><strong>Plusieurs étapes </strong>:</p>
+				
+				<ul>
+					<li>Consultation d'un professionnel en traitement d'image</li>
+					<li>Etude de la faisabilité du traitement</li>
+					<li>Tentatives (bibliothèques, algorithmes, etc.)</li>
+					<li>Modification des objectifs (précision de l'opération) </li>
+				</ul>
+
+				<p>Etablissement d'une procédure dans le traitement.</p>
+			</div>
+
+			<div id="/section-3/page-2" class="ft-page" data-id="page-2">
+				<div class="stack-center">
+					<div class="stacked-center">
+					<img src="assets/img/ban/schema.png">
+					</div>
+				</div>
+			</div>
+
+			<div id="/section-3/page-3" class="ft-page" data-id="page-3">
+				<h1>Détection du bâti</h1>
+				<div class="stack">
+				<ul>
+					<p style="text-align: right"><strong>Principales étapes de la détection: </strong></p>
+					<div class="stacked"><img src="assets/img/bati/0.png"></div>
+					<li class="ft-fragment step" style="text-align: right"> Image en entrée</li> 
+
+					<div class="ft-fragment stacked"><img src="assets/img/bati/1.png"></div>
+					<li class="ft-fragment step" style="text-align: right" > Classification</li> 	
+
+					<div class="ft-fragment stacked"><img src="assets/img/bati/2.png"></div>
+					<li class="ft-fragment step" style="text-align: right" > Filtre bilatéral</li> 	
+
+					<div class="ft-fragment stacked"><img src="assets/img/bati/3.png"></div>
+					<li class="ft-fragment step" style="text-align: right"> Extraction du canal rouge</li>	
+
+					<div class="ft-fragment stacked"><img src="assets/img/bati/4.png"></div>
+
+					<li class="ft-fragment step" style="text-align: right"> Egalisation de l'histogramme</li>
+					<div class="ft-fragment stacked"><img src="assets/img/bati/5.png"></div>
+
+					<li class="ft-fragment step" style="text-align: right"> Création d'un masque</li>
+					<div class="ft-fragment stacked"><img src="assets/img/bati/6.png"></div>
+
+					<li class="ft-fragment step" style="text-align: right"> Filtre Canny</li>
+					<div class="ft-fragment stacked"><img src="assets/img/bati/7.png"></div>
+
+					<li class="ft-fragment step" style="text-align: right"> Minimum Rectangle englobant</li>
+					<div class="ft-fragment stacked" style="text-align: center"><img src="assets/img/bati/8.png"></div>
+
+					</ul>
+				</div>
+			</div>
+
+
+			<div id="/section-3/page-4" class="ft-page" data-id="page-4">
+				<h1>Détection de la végétation</h1>
+				<div class="stack">
+					<ul>
+						<p style="text-align: right"><strong>Principales étapes: </strong></p>
+
+						<div class="stacked"><img src="assets/img/veget/1.png"></div>
+						<li class="ft-fragment step" style="text-align: right"> Image en entrée</li> 
+
+						<div class="ft-fragment stacked"><img src="assets/img/veget/2.png"></div>
+						<li class="ft-fragment step" style="text-align: right"> Seuillage de l'image</li> 	
+
+						<div class="ft-fragment stacked"><img src="assets/img/veget/3.png"></div>
+						<li class="ft-fragment step" style="text-align: right" > Création d'un masque</li> 	
+
+
+						<div class="ft-fragment stacked"><img src="assets/img/veget/21.png"></div>
+						<li class="ft-fragment step" style="text-align: right" > Canny</li> 	
+
+						<div class="ft-fragment stacked"><img src="assets/img/veget/4.png"></div>
+						<li class="ft-fragment step" style="text-align: right" > Détection des contours</li> 	
+
+						<div class="ft-fragment stacked"><img src="assets/img/veget/5.png"></div>
+
+					</ul>
+				</div>
+			</div>
+
+			<div id="/section-3/page-5" class="ft-page" data-id="page-5">
+				<h1>Détection de la route</h1>
+				<div class="stack">
+					<ul>
+						<p style="text-align: right"><strong>Principales étapes: </strong></p>
+
+						<div class="stacked"><img src="assets/img/route/1.png"></div>
+						<li class="ft-fragment step" style="text-align: right"> Image en entrée</li> 	
+
+						<div class="ft-fragment stacked"><img src="assets/img/route/4.png"></div>
+						<li class="ft-fragment step" style="text-align: right" > Création d'un masque</li> 	
+
+						<div class="ft-fragment stacked"><img src="assets/img/route/8.png"></div>
+						<li class="ft-fragment step" style="text-align: right" > Squelettisation</li> 	
+
+					</ul>
+				</div>
+			</div>
+ 			</div>
+			<div class="ft-section" data-id="section-4">
+				<div id="/section-4/page-1" class="ft-page" data-id="page-1">
+					
+					<h1>Modélisation 3D</h1>
+					<h2>Librairies</h2>
+					<dl>
+						<dt>Caméra : </dt>
+						<dd>Utilisation de la librairie LibQGLViewer</dd>
+						<dt>Modélisation :</dt>
+						<dd>Utilisation de la librairie OpenGL</dd>					
+					</dl>
+					
+				</div>
+				<div id="/section-4/page-2" class="ft-page" data-id="page-2">
+					
+					<h1>Caméra</h1>
+					<dl>
+						<dt>Caméra en Quaternion :</dt>
+						<dd>Tentative de conception d'une caméra portable en Quaternion</dd>
+						<dt>Caméra à partir de LibQGLViewer :</dt>
+						<dd>Badre</dd>					
+					</dl>
+				
+				</div>
+				<div id="/section-4/page-3" class="ft-page" data-id="page-3">
+					<h1>Modélisation</h1>
+										<img src="assets/img/graphique_openGL.png">
+				</div>
+				<div id="/section-4/page-4" class="ft-page" data-id="page-4">
+					<h1>Modélisation</h1>
+					<h2>Classe Batiment</h2>
+					<img width="50%"  src="assets/img/batiment.png">
+				</div>
+				<div id="/section-4/page-5" class="ft-page" data-id="page-5">
+					<h1>Modélisation</h1>
+					<h2>Classe Végétation</h2>
+
+					<img width="50%"  src="assets/img/vegetation.png">
+					
+				</div>
+				<div id="/section-4/page-6" class="ft-page" data-id="page-6">
+					<img src="assets/img/animation_arbre.gif">
+				</div>
+			</div>
+
+			<div class="ft-section" data-id="section-5">
+				<div id="/section-5/page-1" class="ft-page" data-id="page-1">
+					<h1>Organisation</h1>
+					
+					<p>Beaucoup de pistes étudiées... et abandonnées</p>
+					<ul>
+						<li>Caméra en quaternion</li>
+						<li>Modification des procédures de traitement d'image</li>
+						<li>Modification de l'image en entrée (process basé sur 1 à 2 image)</li>
+						<li>Modification du dessin des batiments</li>
+						<li>Abandon d'une interface qui ne convenait plus</li>
+						<li>Tentative d'une nouvelle interface</li>
+						<li>Tentative de mise en place du mapping et de filtering des batiments</li>
+						<li>Documentation Doxygen</li>
+						<li>Rapport sous LaTex</li>
+					</ul>
+				</div>
+				<div id="/section-5/page-2" class="ft-page" data-id="page-2" >
+					<h1>Méthodes de travail</h1>
+					<p>Réflexion parallèle entre le traitement d'image et la modélisation sur l'échange de données</p>
+					<p>Versionnage du projet sur Github</p>
+					
+				</div>
+				
+			</div>
+
+			<div class="ft-section" data-id="section-6">
+				<div id="/section-6/page-1" class="ft-page" data-id="page-1">
+					<h1>Conclusion</h1>
+					<p></p>
+					
+				</div>
+			</div>
+
+			<div class="ft-section" data-id="section-7">
+				<div id="/section-7/page-1" class="ft-page" data-id="page-1">
+					<div class="stack-center">
+					<div class="stacked-center">
+					<h1>Démonstration</h1>
+					</div></div>
+				</div>
+				<div id="/section-7/page-2" class="ft-page" data-id="page-2">
+					<div class="stack-center">
+					<div class="stacked-center">
+					<h1>Merci de votre attention</h1>
+					</div></div>
+				</div>
+			</div>
+
+		</div>
+	  <div class="titles">
+	    <div class="title-prev"></div>
+	    <div class="title-next"></div>
+	  </div>
+		<!-- <a href="https://github.com/marcolago/flowtime.js"><img style="position: fixed; top: 0; right: 0; border: 0; z-index: 1000;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png" alt="Fork me on GitHub"></a> -->
+
+		<script src="js/brav1toolbox.js"></script>
+		<script src="js/flowtime.js"></script>
+		<script src="assets/js/prism.js"></script>
+
+		<script type="text/javascript">
+			var cacheTitle = document.title.replace("Flowtime.js | ", "");
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-1228618-10']);
+			_gaq.push(['_trackPageview']);
+			_gaq.push(['_trackEvent', 'Flowtime', 'Landing', document.title]);
+			(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+
+			// Configuration API test
+			Flowtime.showProgress(true);
+			// Flowtime.fragmentsOnSide(true);
+			// Flowtime.fragmentsOnBack(true);
+			// Flowtime.useHistory(false);
+			// Flowtime.slideInPx(true);
+			// Flowtime.sectionsSlideToTop(true);
+			// Flowtime.gridNavigation(false);
+			// Flowtime.useOverviewVariant(true);
+			Flowtime.parallaxInPx(true);
+			//
+			// event management
+			// Flowtime.addEventListener("flowtimenavigation", onNavigation, false);
+
+
+
+
+
+
+			Flowtime.onNavigation(onNavigation);
+			function onNavigation(e)
+			{
+				_gaq.push(['_trackEvent', 'Flowtime', 'Navigation', cacheTitle + ' > ' + document.title.replace("Flowtime.js | ", "")]);
+				// console.log(cacheTitle + ' > ' + document.title.replace("Flowtime.js | ", ""));
+				cacheTitle = document.title.replace("Flowtime.js | ", "");
+				//console.log('section', e.section, 'sectionIndex', e.sectionIndex);
+				//console.log('page', e.page, 'pageIndex', e.);
+				//console.log('pastSectionIndex', e.pastSectionIndex, 'pastPageIndex', e.pastPageIndex);
+				//console.log('prevSection', e.prevSection);
+				//console.log('nextSection', e.nextSection);
+				//console.log('prevPage', e.prevPage);
+				//console.log('nextPage', e.nextPage);
+				//console.log('fragment', e.fragment, + 'fragmentIndex', e.fragmentIndex);
+				//console.log("isOverview", e.isOverview);
+				//console.log('progress:', e.progress, 'total:', e.total);
+				// var value = Math.round(e.progress * 100 / e.total);
+				// console.log('Completion: ' + value + '%');
+			}
+			// starts the application with configuration options
+			
+	 var prevTitle = document.querySelector(".title-prev");
+	    var nextTitle = document.querySelector(".title-next");
+
+	    prevTitle.addEventListener("click", Flowtime.prev, false);
+	    nextTitle.addEventListener("click", Flowtime.next, false);
+
+	    Flowtime.addEventListener("flowtimenavigation", onNavigation, false);
+
+	    function onNavigation(e)
+	    {
+	      var prevPage = Flowtime.getPrevPage();
+	      var nextPage = Flowtime.getNextPage();
+	      if (prevPage === null) {
+	        prevTitle.innerHTML = "";
+	      } else {
+	        prevTitle.innerHTML = "&lt; " + prevPage.getAttribute("data-title");
+	      }
+	      if (nextPage === null) {
+	        nextTitle.innerHTML = "";
+	      } else {
+	        nextTitle.innerHTML = nextPage.getAttribute("data-title") + " &gt;";
+	      }
+	    }
+
+			Flowtime.start();
+
+		</script>
+
+
+
+		<script type="text/javascript" src="http://slidemote.jit.su/slidemote.js#flowtime"></script>
+	</body>
+	</html>
